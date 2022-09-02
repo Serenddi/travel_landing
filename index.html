@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link href="login.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Magra:wght@700&family=Red+Hat+Text:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,700;1,400&family=Magra:wght@700&family=Red+Hat+Text:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,400&family=Magra:wght@700&family=Red+Hat+Text:wght@500&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Magra:wght@700&family=Red+Hat+Text:wght@500&display=swap"
+    rel="stylesheet">
+  <title>Travel</title>
+  <link href="assets/Vector.svg" rel="icon">
+</head>
+
+<body>
+  <main>
+    <section class="section preview" id="first-section">
+      <header id="header">
+        <div class="logo-full">
+          <img src="assets/Vector.svg" height="35" width="35" alt="logo">
+          <span>Travel Portal</span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#first-section">How It Works</a></li>
+            <li><a href="#second-section">Plan Your Trip</a></li>
+            <li><a href="#third-section">Destinations</a></li>
+            <li><a href="#fourth-section">Travel Stories</a></li>
+          </ul>
+        </nav>
+        <div class="pop-up" id="pop">
+          <img src="assets/close_burger.svg" id="close">
+          <ul id="ul">
+            <li><a href="#first-section">How It Works</a></li>
+            <li><a href="#second-section">Plan Your Trip</a></li>
+            <li><a href="#third-section">Destinations</a></li>
+            <li><a href="#fourth-section">Travel Stories</a></li>
+            <li id="account"><a href="#">Account</a></li>
+            <li><a href="#footer">Social Media</a></li>
+          </ul>
+        </div>
+        <button class="login" id="login">Login</button>
+      </header>
+      
+      <div class="inside-info">
+        <h1>Explore the beauty of <br> the World</h1>
+        <p>Recieve personalized recommendations for countries, hotels, activities and more</p>
+        <input type="search" id="site-search" name="q">
+        <label for="site-search"><span>What would you like to do?</span></label><button>Start Planning!</button>
+      </div>
+    </section>
+    <section class="section steps">
+      <h2 id="second-section">3 STEPS TO THE PERFECT TRIP</h2>
+      <div class="step-items">
+        <div class="item">
+          <img src="assets/velo_ico.svg" alt="vel" height="100" width="100">
+          <span>Tell us what you want to do</span>
+        </div>
+        <div class="item">
+          <img src="assets/calendar.svg" alt="calendar" height="100" width="100">
+          <span>Share us preferable dates </span>
+        </div>
+        <div class="item">
+          <img src="assets/aero.svg" alt="aeroplan" height="100" width="100">
+          <span>We will give you recommendations</span>
+        </div>
+      </div>
+    </section>
+    <section class="section destinations" id="third-section">
+      <h2 class="destination-title">POPULAR DESTINATIONS</h2>
+      <div class="dest-items" id="dest_items">
+        <div class="d_1 out" id="d_1"><img src="assets/Destination_1.jpg" alt=""></div>
+        <div class="d_2 out" id="d_2"><img src="assets/Destination_2.jpg" alt=""><span>JAPAN</span></div>
+        <div class="d_3 out" id="d_3"><img src="assets/Destination_3.jpg" alt=""><span>USA</span></div>
+      </div>
+      <div class="prev" id="prev"><svg width="15" height="26" viewBox="0 0 15 26" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.0757 24.9325C14.4272 24.5809 14.6246 24.1041 14.6246 23.6069C14.6246 23.1097 14.4272 22.6329 14.0757 22.2813L4.7944 13L14.0757 3.71875C14.4172 3.36512 14.6062 2.89149 14.6019 2.39987C14.5976 1.90825 14.4005 1.43798 14.0528 1.09034C13.7052 0.742699 13.2349 0.545507 12.7433 0.541237C12.2517 0.536964 11.778 0.725954 11.4244 1.0675L0.817529 11.6744C0.466021 12.026 0.268555 12.5028 0.268555 13C0.268555 13.4972 0.466021 13.974 0.817529 14.3256L11.4244 24.9325C11.776 25.284 12.2528 25.4815 12.75 25.4815C13.2472 25.4815 13.724 25.284 14.0757 24.9325Z"/>
+        </svg></div>
+      <div class="next" id="next"><svg width="15" height="26" viewBox="0 0 15 26" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.0757 24.9325C14.4272 24.5809 14.6246 24.1041 14.6246 23.6069C14.6246 23.1097 14.4272 22.6329 14.0757 22.2813L4.7944 13L14.0757 3.71875C14.4172 3.36512 14.6062 2.89149 14.6019 2.39987C14.5976 1.90825 14.4005 1.43798 14.0528 1.09034C13.7052 0.742699 13.2349 0.545507 12.7433 0.541237C12.2517 0.536964 11.778 0.725954 11.4244 1.0675L0.817529 11.6744C0.466021 12.026 0.268555 12.5028 0.268555 13C0.268555 13.4972 0.466021 13.974 0.817529 14.3256L11.4244 24.9325C11.776 25.284 12.2528 25.4815 12.75 25.4815C13.2472 25.4815 13.724 25.284 14.0757 24.9325Z"/>
+        </svg></div>
+      <div class="checking" id="checking">
+        <input type="radio" id="check1">
+        <input type="radio" id="check2">
+        <input type="radio" id="check3">
+        <label for="check1" id="checking1" class="active-label"></label>
+        <label for="check2" id="checking2"></label>
+        <label for="check3" id="checking3"></label>
+      </div>
+      <button class="find-more"><img src="assets/arrow.svg" alt=""><span>Find More</span></button>
+    </section>
+
+    <section class="section stories" id="fourth-section">
+      <h2>TRAVEL STORIES</h2>
+      <div class="wrapper">
+        <div class="all-picture">
+          <div class="picture-1"></div>
+          <div class="picture-2"></div>
+          <div class="picture-3"></div>
+          <div class="picture-4"></div>
+        </div>
+
+        <div class="all-stories">
+          <div class="story-text-block">
+            <h3>10 Photos of Attractive Thailand</h3>
+            <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            </p>
+            <span>Read More</span>
+          </div>
+          <div class="story-text-block">
+            <h3>Canyonlands National Park, Utah</h3>
+            <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            </p>
+            <span>Read More</span>
+          </div>
+          <div class="story-text-block">
+            <h3>I left my heart in the Mountains!</h3>
+            <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            </p>
+            <span>Read More</span>
+          </div>
+          <div class="story-text-block">
+            <h3>The Longest journey in my life!</h3>
+            <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            </p>
+            <span>Read More</span>
+          </div>
+        </div>
+        <button class="find-more"><img src="assets/arrow.svg" alt=""><span>See More</span></button>
+        <footer>
+          <div class="logos">
+            <a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/logo.svg" alt="" height="40"
+                width="80"></a>
+            <a href="https://github.com/Serenddi" target="_blank"><img src="assets/git.svg" alt="" height="40"
+                width="80"></a>
+          </div>
+          <span>All Rights Reserved © Travel Portal</span>
+          <ul id="footer">
+            <li><img src="assets/akar-icons_instagram-fill.svg" alt=""></li>
+            <li><img src="assets/akar-icons_video.svg" alt=""></li>
+            <li><img src="assets/akar-icons_twitter-fill.svg" alt=""></li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+  </main>
+  <script src="index.js"></script>
+  <script src="login.js"></script>
+  <script src="slider.js"></script>
+</body>
+
+</html>
